@@ -1,0 +1,324 @@
+@media screen and (max-width:1020px) {
+    .header {
+        padding: 20px 60px;
+    }
+    .nav {
+        gap: 20px;
+    }
+    .container-1 {
+        padding: 0px 100px;
+        padding-top: 64px;
+    }
+    .container-4 {
+        padding: 20px 100px;
+    }
+    .left {
+        gap: 16px;
+    }
+    .left h2 {
+        font-size: xx-large;
+    }
+    .left > button {
+        width: 50%;
+    }
+    .container-5 {
+        padding: 80px 100px;
+    }
+    .services {
+        width: 40%;
+    }
+    .container-9 div:first-child {
+        width: 50%;
+    }
+    .container-10 {
+        padding: 30px 0px 30px 30px;
+    }
+    .container-11 {
+        padding: 10px 30px;
+    }
+    .container-11 > div:first-child {
+        gap: 10px;
+    }
+    .cnt {
+        gap: 20px;
+    } 
+    .container-12 {
+        padding: 0px 30px;
+    }
+
+    footer {
+        padding: 0px 30px;
+    }
+}
+
+@media screen and (max-width:974px) {
+    .header {
+        padding: 10px 20px;
+    }
+    .nav {
+        gap: 10px;
+    }
+    .book-btn {
+        padding: 8px 16px;
+    }
+    .container-1 {
+        padding: 0px 60px;
+    }
+    .container-box2 p {
+        font-size: medium;
+    }
+    .container-2 {
+        padding: 0px 100px;
+    }
+    .container-3 {
+        padding: 0px 100px;
+    }
+    .left > button {
+        width: 80%;
+    }
+    .container-5 {
+        padding: 60px 50px;
+    }
+    .services {
+        width: 45%;
+    }
+    .container-7 {
+        padding: 20px 30px;
+    }
+    .container-7 > div {
+        padding: 10px;
+    }
+    .container-8 {
+        padding: 30px 30px;
+    }
+    .container-9 {
+        padding: 30px 30px;
+    }
+    .social-icons>button img {
+        padding: 1px;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    .header {
+        padding: 20px 40px;
+        position: relative;
+    }
+    .menu-btns {
+        display: block;
+    }
+    .menu-btn {
+        display: block;
+        width: 100%;
+    }
+    .menu-btns > button {
+        padding: 3px 6px;
+        font-size: large;
+    }
+    .nav {
+        flex-direction: column;
+        width: 50%;
+        display: none;
+        border: 1px solid white;
+        position: absolute;
+        top: 60px;
+        background-color: grey;
+    }
+    .nav a {
+        padding: 10px 20px;
+        text-align: center;
+        border-bottom: 1px solid white;
+
+    }
+    .book-btn {
+        display: none;
+    }
+    .nav.show {
+        display: flex;
+
+    }
+    .container-1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .container-box1 {
+        margin-bottom: 10px;
+    }
+    .container-2 {
+        padding: 0px 50px;
+    }
+    .container-3 {
+        padding: 0px 50px;
+    }
+    .sponcer {
+        grid-template-columns: repeat(3,1fr);
+        gap: 12px;
+    }
+    .container-4 {
+        padding: 20px 50px;
+        grid-template-areas: 
+            "left"
+            "right"
+        ;
+    }
+    .left {
+        gap: 8px;
+    }
+    .left > button {
+        width: 100%;
+    }
+    .right {
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+    }
+    .card {
+        padding: 12px 20px;
+    }
+    .card>h2 {
+        width: 100%;
+    }
+    .container-5 {
+        padding: 20px 50px;
+        grid-template-columns: repeat(2,1fr);
+        gap: 24px;
+    }
+    .container-6 {
+        padding: 40px 20px;
+    }
+    .services {
+        width: 100%;
+    }
+    .services> h6 {
+        margin-bottom: 16px;
+    }
+    .container-7 {
+        grid-template-columns: 1fr;
+        gap: 0px;
+    }
+    .container-9 {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .container-9 div:first-child {
+        width: 100%;
+    }
+    .container-9 div:last-child {
+        margin-top: 10px;
+    }
+    .container-12 {
+        gap: 20px;
+    }
+    .container-12 > div > h1,p {
+        width: 100%;
+    }
+    .container-12 > div > button {
+        width: 80%;
+    }
+    .footer-contant {
+        grid-template-areas: 
+            "f1"
+            "f2"
+            "f3"
+        ;
+        gap: 10px;
+        text-align: center;
+    }
+    .f2,.f3 {
+        margin: 0px 0px;
+    }
+    .f2> h2:last-child {
+        border-bottom: 1px solid white;
+    }
+    .copyright {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:584px) {
+    .right {
+        grid-template-columns: 1fr;
+    }
+    .container-4 {
+        padding: 15px 40px;
+    }
+    .container-8 {
+        padding: 20px;
+    }
+    .container-10 {
+        padding: 20px 0px 20px 10px;
+    }
+    .policy {
+        flex-direction: column;
+    }
+    .policy a {
+        margin-bottom: 5px;
+    }
+    .container-12 > div >  p {
+        width: 100%;
+    }
+    .container-12 > div {
+        padding: 40px 20px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .container-5 {
+        padding: 10px 20px;
+        grid-template-columns: repeat(2,1fr);
+        gap: 24px;
+    }
+    .container-6 {
+        padding: 20px 20px;
+    }
+    .container-7 {
+        padding: 10px 10px;
+    }
+    
+}
+
+@media screen and (max-width:374px) {
+    .header {
+        padding: 10px 20px;
+    }
+    .container-1 {
+        padding: 10px 20px;
+    }
+    .container-2 {
+        padding: 0px 20px;
+    }
+    .container-3 {
+        padding: 0px 20px;
+    }
+    .sponcer {
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+    }
+    .container-4 {
+        padding: 15px 20px;
+    }
+    .left > h2 {
+        font-size: large;
+    }
+    .container-5 {
+        padding: 10px;
+    }
+    .container-6 {
+        padding: 20px 10px;
+    }
+    .list-contant > h2 {
+        font-size: medium;
+    }
+    .container-9 {
+        padding: 20px 10px;
+    }
+    .policy a {
+        margin-bottom: 5px;
+    }
+    .copyright> h4 {
+        font-size: small;
+    }
+}
