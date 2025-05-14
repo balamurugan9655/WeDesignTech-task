@@ -275,38 +275,106 @@ body {
     height: auto;
 }
 
-.container-11 {
-    padding: 20px 160px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    width: 100%;
-}
-.container-11 > div:first-child {
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
-    grid-template-rows: auto;
-    gap: 20px;
-}
-.cnt {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    /* align-items: center; */
-    gap: 50px;
-    font-size: larger;
-}
-.people {
-    background: linear-gradient( black,#141718);
-    /* border: 2px solid wheat; */
-}
-.people > img {
-    border-radius: 20px;
-}
-.people > h5,p {
-    padding: 4px 16px;
-}
 
+/* Marquee */
+.green-banner {
+    background-color: #00b96b;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .banner-text {
+    display: inline-block;
+    padding: 1rem 0;
+    font-weight: bold;
+    font-size: 1.2rem;
+    animation: scrollText 15s linear infinite;
+    color: black;
+  }
+  .banner-text > span {
+    padding: 0px 32px;
+  }
+
+  @keyframes scrollText {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+
+  /* Team Section */
+  .team-container {
+    padding: 40px 160px;
+  }
+
+  .team-header-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    align-items: center;
+  }
+
+  .team-intro {
+    flex: 1;
+    min-width: 250px;
+  }
+
+  .team-intro h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .highlight-text {
+    color: yellow;
+  }
+
+  .team-intro p {
+    font-size: 1rem;
+    color: #ccc;
+  }
+
+   .top-team-members {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    gap: 24px;
+   }
+
+  .member-card {
+    background-color: #111;
+    /* padding: 1rem; */
+    border-radius: 8px;
+    text-align: center;
+    width: 180px;
+  }
+
+  .member-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .member-name {
+    /* margin-top: 0.5rem; */
+    color: #fff;
+    text-align: start;
+    padding: 16px 24px 2px;
+  }
+
+  .member-role {
+    color: #aaa;
+    font-size: 0.9rem;
+    padding: 2px 24px 12px;
+    text-align: start;
+  }
+
+  /* Bottom Team Grid */
+  .bottom-team-grid {
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 24px;
+    margin-top: 2rem;
+    justify-content: space-between;
+  }
 
 
 
